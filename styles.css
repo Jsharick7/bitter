@@ -1,0 +1,202 @@
+.navbar{
+  padding:10px;
+
+}
+#navBrand,#navStuff{
+  color:white;
+  font-size: 2em;
+}
+#signupform{
+  margin:auto;
+  margin-top:40px;
+  max-width: 400px;
+}
+h2{
+  color:white;
+  margin-bottom:22px;
+  display:block;
+  background-color: #17A2B8;
+  text-align: center;
+  line-height: 2;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+#or{
+  margin:20px;
+  font-size:1.2em;
+}
+
+section{
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  background-color: #ffefbd;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+/* This is mostly intended for prototyping; please downloadattern and re-host for production environments. Thank you! */
+}
+/*SNIPPET FOR INDEX*/
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+}
+#signin{
+  text-align: center;
+}
+#login-image{
+  min-height: 100vh;
+}
+#welcome{
+  margin-top:30px;
+}
+.welcomePic > img{
+  width:100px;
+  height:auto;
+
+  border-style: 3px solid black;
+}
+.welcomeBack{
+  margin:auto;
+  text-align: center;
+}
+.pictureupload{
+  background-color: #dedede;
+  border-radius: 10px;
+  padding:10px;
+  margin:10px;
+}
+.normalpad{
+padding: 20px;
+
+}
+.postTextArea{
+  border-radius: 10px;
+  width:100%;
+}
+.bg-image {
+  background-image: url('https://images.unsplash.com/photo-1545141416-83ebe371f66e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1476&q=80');
+  background-size: cover;
+  background-position: center;
+}
+.update-image, #compose{
+  border-style: 1px solid gray;
+  border-radius: 15px;
+}
+.profile-picture{
+  height:90px;
+  width:90px;
+}
+#yourBits{
+  margin-top:30px;
+}
+/*   SNIPPET FOR POST PANELS */
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.panel-white {
+  border: 1px solid #dddddd;
+  margin-bottom:30px;
+  background-color: white;
+}
+.panel-white  .panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.panel-white  .panel-footer {
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.post .post-heading {
+  height: 95px;
+  padding: 20px 15px;
+}
+.post .post-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+
+  margin-right: 15px;
+}
+.post .post-heading .meta .title {
+  margin-bottom: 0;
+}
+.post .post-heading .meta .title a {
+  color: black;
+}
+.post .post-heading .meta .title a:hover {
+  color: #aaaaaa;
+}
+.post .post-heading .meta .time {
+  margin-top: 8px;
+  color: #999;
+}
+.post-image .image {
+  width: 100%;
+  height: auto;
+}
+.post-description {
+  padding: 15px;
+}
+.post-description p {
+  font-size: 14px;
+}
+.post-description .stats {
+  margin-top: 20px;
+}
+.post .post-description .stats .stat-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.post .post-description .stats .stat-item .icon {
+  margin-right: 8px;
+}
+.post .post-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+}
+.post .input-group-addon a {
+  color: #454545;
+}
+.post .comments-list {
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.post .comment {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+.post .avatar {
+  width: 35px;
+  height: 35px;
+}
+.post .comment-heading {
+  display: block;
+  width: 100%;
+}
+.post .user {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  margin-top: 0;
+  margin-right: 10px;
+}
+.post .time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 0;
+  display: inline;
+}
+.post .post-footer .comment-body {
+  margin-left: 50px;
+}
+.post > .comments-list {
+  margin-left: 50px;
+}
